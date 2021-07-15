@@ -2,17 +2,16 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 import Backgroundimage from "../images/bronze.svg"
+
+
 const IndexPage = () => {
   
   
   return (
-   <div className="main">
+   <div className="wrapper">
      <Header/>
-     <img src={Backgroundimage}/>
-     <h1 className="portfolio">PORTFOLIO</h1>
-     <h1 className="name">Sofia Cronström<br/>
-      Frontend developer</h1>
-      
+     <h1 className="name">Sofia Cronström<br/></h1>
+      <h2>code and creativity</h2>
    </div>
   )
 
