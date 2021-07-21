@@ -9,7 +9,7 @@ const Header = () => {
   return (
 <header>
    <div className="header">
-    <img className="burger" src={Burgare} alt="menu burger img"/>
+    <img className="burger" src={Burgare} alt="menu burger image"/>
    </div> 
 </header>
   )
