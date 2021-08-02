@@ -1,10 +1,10 @@
 
-
-.wrapper{
+/* INDEX PAGE */
+.wrapper-index{
   background-image: url("../images/background-grey.svg");
   background-position: cover;
   width: 100vw;
-  height:100vh;
+  height: 900px;
   z-index: 0;
 }
 .burger{
@@ -16,12 +16,53 @@ header{
   position: relative;
   z-index: 1;
   width: 100vw;
-  height: 25vh;
+  height: 100vh;
  
+}
+
+/*PROJECT PAGE*/
+.wrapper-projects{
+  background-image: url("../images/background-projects.svg");
+  background-position: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.projOne, .projTwo, .projThree, .projFour, .projFive, .projSix{
+  background-color:pink;
+}
+
+/*ABOUT PAGE*/
+.wrapper-about{
+  background-image: url("../images/background-about.svg");
+  background-position: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.text-about{
+  background-color: #FFFA8A;
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
 }
 
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+  .wrapper-index{
+    background-image: url("../images/index-mobile.svg");
+    background-position: cover;
+    width: 100vw;
+    height:100vh;
+    z-index: 0;
   }
 }
