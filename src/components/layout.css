@@ -1,8 +1,12 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* INDEX PAGE */
 .wrapper-index{
   background-image: url("../images/background-grey.svg");
-  background-position: cover;
+  background-position: contain;
   width: 100vw;
   height: 900px;
   z-index: 0;
@@ -23,9 +27,9 @@ header{
 /*PROJECT PAGE*/
 .wrapper-projects{
   background-image: url("../images/background-projects.svg");
-  background-position: cover;
+  background-position: contain;
   width: 100vw;
-  height: 100vh;
+  height: 900px;
 }
 
 .container-projects{
@@ -42,9 +46,10 @@ header{
 /*ABOUT PAGE*/
 .wrapper-about{
   background-image: url("../images/background-about.svg");
-  background-position: cover;
+  background-position: contain;
   width: 100vw;
-  height: 100vh;
+  height: 900px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,10 +66,9 @@ header{
 /*CONTACT PAGE*/
 .wrapper-contact{
   background-image: url("../images/background-contact.svg");
-  background-position: cover;
+  background-position: contain;
   width: 100vw;
-  height: 100vh;
-  border-collapse: collapse;
+  height: 900px;
 }
 .text-contact{
   margin-top: auto;

@@ -17,7 +17,7 @@ return (
         <img src={GithubIcon} className="github" alt="github icon with link to my githubpage when clicked"/>
         </Link>
         <Link to='https://www.linkedin.com/in/sofia-cronstr%C3%B6m-080a4998/'>
-        <img src={LinkedinIcon} alt="linkedin" alt="linkedin icon with link to my linkedin when clicked"/>
+        <img src={LinkedinIcon} alt="linkedin icon with link to my linkedin when clicked"/>
         </Link>
     </div>
 </div>
