@@ -1,15 +1,16 @@
 import * as React from "react"
-
+import Profile from '../images/profile.jpg'
 const About = () => {
 
   return (
 
    <div className="wrapper-about">
        <div className="text-container">
-
-         <div className="text-head">Hi!</div>
+         <img src={Profile} className="profile" alt="profile picture of me looking straight into the camera with a smile"/>
          
-            <p className="text-about">
+         <div className="text-head">Hi!
+         
+            <p>
             My name is Sofia and I am currently studying at Hyper Island to be a frontend developer. I have a background in the fine art and crafts and I am a textile artist. I also have long work experience with customer service from working at two culture instittutions in Stockholm. 
             <br/>
             The interest for code began when I stumbled upon a free introduction course in JavaScript only two years ago and after that I was hooked. 
@@ -18,10 +19,13 @@ const About = () => {
             <br/>
             I am intrigued by tech companies and projects that works with the human in mind and that have a social consciousness.
             </p>
-         </div>
+
+          </div>
+          
+        </div>
     </div> 
 
   )
 }
 
-export default About
+export default About;

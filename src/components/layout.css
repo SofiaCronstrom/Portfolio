@@ -1,27 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+:root{
+  --header-font: 'DM Serif Display', serif;
+  --paraG-font:  'Quicksand', sans-serif;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* INDEX PAGE */
-.wrapper-index{
+
+/* HEADER */
+
+.header{
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  background-color: #B3B3B3;
+  
+ }
+ .wrapper-index{
+   background-color: #B3B3B3;
+ }
+
+/* FIRST PAGE */
+.container-index{
   background-image: url("../images/background-grey.svg");
-  background-position: contain;
+  background-position: initial ;
   width: 100vw;
-  height: 900px;
-  z-index: 0;
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.burger{
-  position: relative;
-  z-index: 1;
-  opacity: 1;
+
+.index-name{
+font-family: var(--header-font);
+color: #FAFF00;
+font-size: 4.5em;
+letter-spacing: 0.06em;
+padding-left: 7vw;
 }
-header{
-  position: relative;
-  z-index: 1;
+
+.index-header{
+  font-family: var(--paraG-font);
+  color: #46038C;
+  font-size: 3em;
+  font-weight: normal;
+  padding-left: 7vw;
+}
+
+
+
+/*ABOUT PAGE*/
+.wrapper-about{
+  background-image: url("../images/background-about.svg");
+  background-position: initial;
   width: 100vw;
-  height: 100vh;
+  height: 790px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container{
  
+  background-color: #FFFA8A;
+  font-family: var(--paraG-font);
+  color: #2b0257;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.profile{
+  padding: 2%;
+  width: 30vw;
+  height: 40vh;
+  margin: auto 0;
+}
+
+.text-head{
+  padding: 2%;
+  width: 40vw;
+  height: 40vh;
+  
 }
 
 /*PROJECT PAGE*/
@@ -29,7 +96,7 @@ header{
   background-image: url("../images/background-projects.svg");
   background-position: contain;
   width: 100vw;
-  height: 900px;
+  height: 770px;
 }
 
 .container-projects{
@@ -43,32 +110,12 @@ header{
   background-color:pink;
 }
 
-/*ABOUT PAGE*/
-.wrapper-about{
-  background-image: url("../images/background-about.svg");
-  background-position: contain;
-  width: 100vw;
-  height: 900px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-about{
-  background-color: #FFFA8A;
-  width: 80vw;
-  height: 80vh;
-
-  
-}
-
 /*CONTACT PAGE*/
 .wrapper-contact{
   background-image: url("../images/background-contact.svg");
   background-position: contain;
   width: 100vw;
-  height: 900px;
+  height: 770px;
 }
 .text-contact{
   margin-top: auto;

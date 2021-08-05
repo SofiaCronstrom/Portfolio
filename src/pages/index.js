@@ -4,15 +4,14 @@ import Header from "../components/header"
 import About from "../components/about"
 import Projects from '../components/projects';
 import Contact from '../components/contact';
-
+import First from '../components/first';
 const IndexPage = () => {
   
   
   return (
    <div className="wrapper-index">
      <Header/>
-     <h1 className="name">Sofia Cronström<br/></h1>
-      <h2>code and creativity</h2>
+       <First/> 
       <About/>
       <Projects/>
       <Contact/>

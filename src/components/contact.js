@@ -13,12 +13,12 @@ return (
         <h1>Lets get in touch!</h1>
         <h2>Email: sofia.cronstrom@gmail.com</h2>
         <h2>0046704546346</h2>
-        <Link to='https://github.com/SofiaCronstrom'>
+        <a href='https://github.com/SofiaCronstrom'>
         <img src={GithubIcon} className="github" alt="github icon with link to my githubpage when clicked"/>
-        </Link>
-        <Link to='https://www.linkedin.com/in/sofia-cronstr%C3%B6m-080a4998/'>
+        </a>
+        <a href='https://www.linkedin.com/in/sofia-cronstr%C3%B6m-080a4998/'>
         <img src={LinkedinIcon} alt="linkedin icon with link to my linkedin when clicked"/>
-        </Link>
+        </a>
     </div>
 </div>
 
