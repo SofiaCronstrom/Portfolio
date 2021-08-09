@@ -17,11 +17,15 @@
   position: fixed;
   overflow: scroll;
   top: 0;
-  background-color: #B3B3B3;
-  
+  }
+
+ .burger{
+  padding-left: 95vw;
+  padding-right: 2vw;
+  padding-top: 2%;
  }
  .wrapper-index{
-   background-color: #B3B3B3;
+   background-color: #808080;
  }
 
 /* FIRST PAGE */
@@ -98,19 +102,24 @@ padding-left: 7vw;
   width: 100vw;
   height: 770px;
 }
-
+.project-head{
+  font-family: var(--header-font);
+  color: #FFF403;
+  padding: 2%;
+  padding-bottom: 0;
+  font-size: 3em;
+}
 .container-projects{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  grid-auto-rows: minmax(200px, auto);
+  grid-auto-rows: minmax(206px, auto);
   margin: 10%;
   justify-content: center;
   align-content: center;
 }
 
 .projOne{
-  background-color:pink;
   box-shadow: 0px 5px 4px #656565;
 }
 
@@ -146,17 +155,13 @@ padding-left: 7vw;
   font-size: 1.1em;
 }
 
-.text{
-  
-  
-}
 .gitText, .linkedText{
   font-family: var(--paraG-font);
   font-size: 1.1em;
 }
 
 .github{
-  width: 2.5vw;
+  width: 2vw;
 }
 .linkedin{
   width: 2vw;
