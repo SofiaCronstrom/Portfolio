@@ -67,35 +67,51 @@ padding-left: 7vw;
   justify-content: center;
   align-items: center;
 }
+.border-about{
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: #60d4b3;
+}
 
 .text-container{
  
   background-color: #FFFA8A;
   font-family: var(--paraG-font);
   color: #2b0257;
-  width: 80vw;
+  width: 60vw;
   height: 80vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
   justify-content: center;
+  justify-items: center;
+  align-content: center;
   box-shadow: 0 10px 6px -6px #777;
   
 }
 
 .profile{
-  padding: 2%;
+  padding: 10px;
   width: 300px;
   height: 300px;
   margin: auto 0;
 }
-
 .text-head{
-  padding: 2%;
-  width: 40vw;
-  height: 40vh;
+  padding: 20px;
+  font-weight: 600;
+}
+.text-head p{
+  padding: 10px;
+  width: 300px;
+  height: 30px;
   
 }
 
 /*PROJECT PAGE*/
+.border-proj{
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: #9c60d4; 
+}
 .wrapper-projects{
   background-image: url("../images/background-project1.svg");
   background-position: contain;
@@ -133,6 +149,11 @@ padding-left: 7vw;
 }
 
 /*CONTACT PAGE*/
+.border-contact{
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: #e5e5e5; 
+}
 .wrapper-contact{
   background-image: url("../images/background-contact1.svg");
   background-position: contain;
@@ -177,15 +198,63 @@ padding-left: 7vw;
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   html {
     font-size: 100%;
   }
-  .wrapper-index{
-    background-image: url("../images/index-mobile.svg");
-    background-position: cover;
-    width: 100vw;
-    height:100vh;
-    z-index: 0;
+  .container-index{
+    background-image: url("../images/first-mobile.svg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+  }
+  .index-header{
+     font-size: 1.5em;
+  }
+  .index-name{
+    font-size: 2.7em;
+  }
+  /*ABOUT MOBILE*/
+  .wrapper-about{
+    background-image: url("../images/about-mobile.svg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+  }
+  .text-container{
+    display: grid;
+    grid-template-columns: repeat(1, 180px);
+    grid-auto-rows: minmax(300px, auto);
+    height: 700px;
+    font-size: 0.8em;
+  }
+  
+  /*PROJECT MOBILE*/
+  .wrapper-projects{
+    background-image: url("../images/proj-mobile.svg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    
+  }
+  .container-projects{
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 20px;
+    grid-auto-rows: minmax(110px, auto);
+  }
+  .projOne{
+    width: 300px;
+  }
+
+  /*CONTACT MOBILE*/
+  .wrapper-contact{
+    background-image: url("../images/contact-mobile.svg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
   }
 }

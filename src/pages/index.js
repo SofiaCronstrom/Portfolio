@@ -11,9 +11,12 @@ const IndexPage = () => {
   return (
    <div className="wrapper-index">
      <Header/>
-       <First/> 
+       <First/>
+       <div className="border-about"></div> 
       <About/>
+      <div className="border-proj"></div> 
       <Projects/>
+      <div className="border-contact"></div> 
       <Contact/>
    </div>
   )

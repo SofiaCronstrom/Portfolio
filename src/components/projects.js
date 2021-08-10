@@ -12,13 +12,13 @@ return (
                 <Modal1/>
                 <h1>DIZZY DREAM</h1>
             </div> 
-            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>
+            <div className="projOne" style={{backgroundColor: "#8FC9B8"}}>
                 <h1>RICOLA</h1>
             </div>
-            <div className="projOne" style={{backgroundColor: "#AAA1C6"}}>
+            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>
                 <h1>HABIT TRACKER</h1>
             </div>
-            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>
+            <div className="projOne" style={{backgroundColor: "#AAA1C6"}}>
                 <h1>CETRIOLO CLOCK</h1>
             </div>
            
