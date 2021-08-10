@@ -8,12 +8,20 @@ return (
 <h1 className="project-head">Projects</h1>
         <div className="container-projects">
             
-            <div className="projOne" style={{backgroundColor: "#EBE9B7"}}><Modal1/></div> 
-            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>2</div>
-            <div className="projOne" style={{backgroundColor: "#AAA1C6"}}>3</div>
-            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>4</div>
-            <div className="projOne" style={{backgroundColor: "#8FC9B8"}}>5</div>
-            <div className="projOne" style={{backgroundColor: "#e5e5e5"}}>6</div>
+            <div className="projOne" style={{backgroundColor: "#EBE9B7"}}>
+                <Modal1/>
+                <h1>DIZZY DREAM</h1>
+            </div> 
+            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>
+                <h1>RICOLA</h1>
+            </div>
+            <div className="projOne" style={{backgroundColor: "#AAA1C6"}}>
+                <h1>HABIT TRACKER</h1>
+            </div>
+            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>
+                <h1>CETRIOLO CLOCK</h1>
+            </div>
+           
         </div>
 </div>
 

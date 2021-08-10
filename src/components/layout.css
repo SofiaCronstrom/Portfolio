@@ -111,16 +111,25 @@ padding-left: 7vw;
 }
 .container-projects{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 400px);
   gap: 20px;
-  grid-auto-rows: minmax(206px, auto);
+  grid-auto-rows: minmax(150px, auto);
   margin: 10%;
   justify-content: center;
-  align-content: center;
+  justify-items: center;
+  align-content: space-between;
 }
 
 .projOne{
   box-shadow: 0px 5px 4px #656565;
+  color: #2b0257;
+  font-family:var(--paraG-font);
+  font-weight: 600;
+  font-size: 1em;
+  width: 400px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
 }
 
 /*CONTACT PAGE*/

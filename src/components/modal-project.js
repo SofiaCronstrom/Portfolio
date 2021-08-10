@@ -12,7 +12,7 @@ const customStyles = {
     },
   };
 
-const ModalProject = () => {
+const ModalProject = (props) => {
     let subtitle;
     const [modalIsOpen, setIsOpen] = useState(false);
 
