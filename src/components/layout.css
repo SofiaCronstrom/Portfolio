@@ -160,8 +160,29 @@ padding-left: 7vw;
   display: grid;
   justify-items: center;
   align-content: center;
+
 }
 
+.modal{
+  background-color: #e5e5e5;
+  
+  overflow: scroll;
+  top: 50%;
+left: 50%;
+right: auto;
+bottom: auto;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+.modal-aframe{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(150px, auto);
+  overflow: scroll;
+  align-items: center;
+  justify-items: center;
+}
 /*CONTACT PAGE*/
 .border-contact{
   border-style: solid;
@@ -285,3 +306,9 @@ padding-left: 7vw;
   
   }
 }
+top: 50%;
+left: 50%;
+right: auto;
+bottom: auto;
+marginRight: -50%;
+transform: translate(-50%, -50%);
