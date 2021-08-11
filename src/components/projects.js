@@ -1,5 +1,5 @@
 import * as React from "react"
-import Modal1 from "../components/modal-project"
+import Modal1 from "./modal-dizzy"
 const ProjectPage = () =>  {
 
 
@@ -8,10 +8,8 @@ return (
 <h1 className="project-head">Projects</h1>
         <div className="container-projects">
             
-            <div className="projOne" style={{backgroundColor: "#EBE9B7"}}>
-                <Modal1/>
-                <h1>DIZZY DREAM</h1>
-            </div> 
+           <Modal1/>
+           
             <div className="projOne" style={{backgroundColor: "#8FC9B8"}}>
                 <h1>RICOLA</h1>
             </div>

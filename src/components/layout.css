@@ -21,8 +21,8 @@
 
  .burger{
   padding-left: 95vw;
-  padding-right: 2vw;
-  padding-top: 2%;
+  padding-right: 20px;
+  padding-top: 20px;
  }
  .wrapper-index{
    background-color: #808080;
@@ -31,7 +31,10 @@
 /* FIRST PAGE */
 .container-index{
   background-image: url("../images/background-first1.svg");
-  background-position: initial ;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
   width: 100vw;
   height: 790px;
   display: flex;
@@ -45,6 +48,7 @@ color: #FFF403;
 font-size: 4.5em;
 letter-spacing: 0.06em;
 padding-left: 7vw;
+
 }
 
 .index-header{
@@ -53,6 +57,7 @@ padding-left: 7vw;
   font-size: 3em;
   font-weight: normal;
   padding-left: 7vw;
+  padding-bottom: 7vh;
 }
 
 
@@ -60,7 +65,10 @@ padding-left: 7vw;
 /*ABOUT PAGE*/
 .wrapper-about{
   background-image: url("../images/background-about1.svg");
-  background-position: initial;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
   width: 100vw;
   height: 790px;
   display: flex;
@@ -78,8 +86,8 @@ padding-left: 7vw;
   background-color: #FFFA8A;
   font-family: var(--paraG-font);
   color: #2b0257;
-  width: 60vw;
-  height: 80vh;
+  width: 700px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(2, 300px);
   justify-content: center;
@@ -90,19 +98,22 @@ padding-left: 7vw;
 }
 
 .profile{
-  padding: 10px;
-  width: 300px;
-  height: 300px;
+  
+  width: 250px;
+  height: 250px;
   margin: auto 0;
 }
 .text-head{
-  padding: 20px;
+  
   font-weight: 600;
+}
+.text-head h2{
+  padding-left: 10px;
 }
 .text-head p{
   padding: 10px;
   width: 300px;
-  height: 30px;
+  height: 300px;
   
 }
 
@@ -114,14 +125,17 @@ padding-left: 7vw;
 }
 .wrapper-projects{
   background-image: url("../images/background-project1.svg");
-  background-position: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
   width: 100vw;
   height: 770px;
 }
 .project-head{
   font-family: var(--header-font);
   color: #FFF403;
-  padding: 2%;
+  padding: 20px;
   padding-bottom: 0;
   font-size: 3em;
 }
@@ -156,7 +170,10 @@ padding-left: 7vw;
 }
 .wrapper-contact{
   background-image: url("../images/background-contact1.svg");
-  background-position: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
   width: 100vw;
   height: 770px;
 }
@@ -198,7 +215,7 @@ padding-left: 7vw;
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   html {
     font-size: 100%;
   }
@@ -207,6 +224,9 @@ padding-left: 7vw;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat; background-size: cover;
+  }
+  .burger{
+    padding-left: 90vw;
   }
   .index-header{
      font-size: 1.5em;
@@ -227,7 +247,8 @@ padding-left: 7vw;
     display: grid;
     grid-template-columns: repeat(1, 180px);
     grid-auto-rows: minmax(300px, auto);
-    height: 700px;
+    width: 350px;
+    height: 600px;
     font-size: 0.8em;
   }
   
@@ -256,5 +277,11 @@ padding-left: 7vw;
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover;
+    height: 700px;
+  }
+  .text-contact{
+    width: 100vw;
+  height: 300px;
+  
   }
 }

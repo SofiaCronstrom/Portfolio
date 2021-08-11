@@ -1,9 +1,9 @@
 <svg width="500" height="700" viewBox="0 0 500 700" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0)">
 <rect width="500" height="700" fill="#808080"/>
-<rect x="34" y="303.393" width="403.462" height="364.325" transform="rotate(-4.60504 34 303.393)" fill="url(#pattern0)"/>
+<rect x="34" y="369.393" width="403.462" height="364.325" transform="rotate(-4.60504 34 369.393)" fill="url(#pattern0)"/>
 <rect x="199.417" y="-53" width="331.378" height="235.478" transform="rotate(49.6342 199.417 -53)" fill="url(#pattern1)"/>
-<rect x="99" y="403" width="73" height="82" fill="url(#pattern2)"/>
+<rect x="353.946" y="337.143" width="145" height="135" transform="rotate(-95.9165 353.946 337.143)" fill="url(#pattern2)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -13,7 +13,7 @@
 <use xlink:href="#image1" transform="translate(0 -0.0626183) scale(0.00101215 0.00142435)"/>
 </pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image2" transform="translate(-0.0652673) scale(0.00181175 0.0016129)"/>
+<use xlink:href="#image2" transform="translate(0 -0.0335945) scale(0.00160256 0.00172127)"/>
 </pattern>
 <clipPath id="clip0">
 <rect width="500" height="700" fill="white"/>
