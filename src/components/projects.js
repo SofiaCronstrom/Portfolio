@@ -1,15 +1,24 @@
 import * as React from "react"
-import Modal1 from "./modal-dizzy"
-const ProjectPage = () =>  {
+import Modal from "./modal-dizzy"
+import useModal from "./modal"
 
+const ProjectPage = () =>  {
+const {isShowing, toggle} = useModal();
 
 return (
 <div className="wrapper-projects">
 <h1 className="project-head">Projects</h1>
         <div className="container-projects">
             
-           <Modal1/>
+        
+           <button className="projOne" onClick={toggle} style={{backgroundColor: "#EBE9B7"}}>
+                <h1>DIZZY DREAM</h1>
+           </button> 
+           <Modal
+           isShowing={isShowing}
+           hide={toggle}/> 
            
+         
             <div className="projOne" style={{backgroundColor: "#8FC9B8"}}>
                 <h1>RICOLA</h1>
             </div>
