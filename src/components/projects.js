@@ -1,9 +1,18 @@
 import * as React from "react"
 import Modal from "./modal-dizzy"
-import useModal from "./modal"
+import Modal2 from "./modal-ricola"
+import Modal3 from "./modal-habit"
+import useModal from "./button-1"
+import useModal2 from "./button-2"
+import useModal3 from "./button-3"
+
 
 const ProjectPage = () =>  {
-const {isShowing, toggle} = useModal();
+
+
+const [isShowing, toggle] = useModal();
+const [isShowing2, toggle2] = useModal();
+const [isShowing3, toggle3] = useModal();
 
 return (
 <div className="wrapper-projects">
@@ -11,23 +20,33 @@ return (
         <div className="container-projects">
             
         
-           <button className="projOne" onClick={toggle} style={{backgroundColor: "#EBE9B7"}}>
+           <button type="button" className="projOne" isShowing={isShowing} onClick={toggle} style={{backgroundColor: "#EBE9B7"}}>
                 <h1>DIZZY DREAM</h1>
+                <Modal
+                isShowing={isShowing}
+                hide={toggle}/> 
            </button> 
-           <Modal
-           isShowing={isShowing}
-           hide={toggle}/> 
+           
            
          
-            <div className="projOne" style={{backgroundColor: "#8FC9B8"}}>
+            <button type="button" className="projOne" onClick={toggle2} style={{backgroundColor: "#8FC9B8"}}>
                 <h1>RICOLA</h1>
-            </div>
-            <div className="projOne" style={{backgroundColor: "#FFFA8A"}}>
+                <Modal2
+           isShowing={isShowing2}
+           hide={toggle2}/> 
+            </button>
+           
+
+            <button type="button" className="projOne" onClick={toggle3} style={{backgroundColor: "#FFFA8A"}}>
                 <h1>HABIT TRACKER</h1>
-            </div>
-            <div className="projOne" style={{backgroundColor: "#AAA1C6"}}>
+                <Modal3
+           isShowing={isShowing3}
+           hide={toggle3}/> 
+            </button >
+
+            <button type="button" className="projOne" style={{backgroundColor: "#AAA1C6"}}>
                 <h1>CETRIOLO CLOCK</h1>
-            </div>
+            </button>
            
         </div>
 </div>

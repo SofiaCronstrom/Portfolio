@@ -1,9 +1,9 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import ImgOne from "../images/modal/aframe-1.svg"
+import ImgOne from "../images/modal/habit-1.svg"
 
 
-const Modal = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
+const ModalThree = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
 
   
 
@@ -17,7 +17,7 @@ const Modal = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
           </button>
         </div>
          <div className="modal-content">
-          <h2 className="proj-head">webVR/VR game</h2>
+          <h2 className="proj-head">Habit</h2>
 
           <img src={ImgOne} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
 
@@ -31,7 +31,7 @@ const Modal = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
                 Duis bibendum eros at eros consectetur, id volutpat<br/> 
                 diam dignissim. Etiam vel mauris est. Vivamus ut erat tincidunt.<br/>
 
-                <a className="proj-link" href="https://sofiacronstrom.github.io/dizzy-dream/">View project</a>
+                <a className="proj-link" href="https://elinordin.github.io/habit-tracker/">View project</a>
           </p>
         </div>
       </div>
@@ -41,4 +41,4 @@ const Modal = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
   
 
  
-export default Modal;
+export default ModalThree;
