@@ -186,7 +186,7 @@ padding-left: 7vw;
 }
 .modal {
   z-index: 100;
-  background: white;
+  background: #E5E5E5;
   position: relative;
   margin: 1.75rem auto;
   border-radius: 3px;
@@ -201,8 +201,8 @@ padding-left: 7vw;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
-  opacity: .3;
+  color: #2b0257;
+  opacity: .7;
   cursor: pointer;
   border: none;
 }
@@ -213,6 +213,33 @@ button {
   border-radius: 3px;
   padding: .3rem 1rem;
   margin-left: .5rem;
+}
+.modal-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.proj-text{
+  font-family: var(--paraG-font);
+  width: 280px;
+}
+.proj-link{
+  font-family: var(--paraG-font); 
+  color: #0F0AF6;
+}
+.proj-head{
+  font-family: var(--header-font);
+  color: #2b0257;
+  
+}
+
+/*MODAL IMAGES*/
+.aframe-img{
+  
+  width: 280px;
+  height: 225px;
 }
 
 /*CONTACT PAGE*/
