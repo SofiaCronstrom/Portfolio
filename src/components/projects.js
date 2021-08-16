@@ -2,9 +2,9 @@ import * as React from "react"
 import Modal from "./modal-dizzy"
 import Modal2 from "./modal-ricola"
 import Modal3 from "./modal-habit"
+import Modal4 from "./modal-cetriolo"
 import useModal from "./button-1"
-import useModal2 from "./button-2"
-import useModal3 from "./button-3"
+
 
 
 const ProjectPage = () =>  {
@@ -13,6 +13,8 @@ const ProjectPage = () =>  {
 const [isShowing, toggle] = useModal();
 const [isShowing2, toggle2] = useModal();
 const [isShowing3, toggle3] = useModal();
+const [isShowing4, toggle4] = useModal();
+
 
 return (
 <div className="wrapper-projects">
@@ -44,8 +46,12 @@ return (
            hide={toggle3}/> 
             </button >
 
-            <button type="button" className="projOne" style={{backgroundColor: "#AAA1C6"}}>
+            <button type="button" className="projOne" onClick={toggle4} style={{backgroundColor: "#AAA1C6"}}>
                 <h1>CETRIOLO CLOCK</h1>
+                <Modal4
+                isShowing={isShowing4}
+                hide={toggle4}
+                />
             </button>
            
         </div>
