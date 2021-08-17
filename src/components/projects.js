@@ -22,7 +22,7 @@ return (
         <div className="container-projects">
             
         
-           <button type="button" className="projOne" isShowing={isShowing} onClick={toggle} style={{backgroundColor: "#EBE9B7"}}>
+           <button type="button" className="projOne" onClick={toggle} style={{backgroundColor: "#EBE9B7"}}>
                 <h1>DIZZY DREAM</h1>
                 <Modal
                 isShowing={isShowing}
