@@ -4,7 +4,6 @@ import About from "./about"
 import Projects from './projects';
 import Contact from './contact';
 import First from './first';
-
 const IndexPage = () => {
   
   
