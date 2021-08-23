@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* HEADER */
@@ -21,6 +22,7 @@
 
  .wrapper-index{
    background-color: #808080;
+   width: 100vw;
  }
 /*MENU*/
 .burger{
@@ -311,6 +313,7 @@ button {
   border-style: solid;
   border-width: 0 10px 10px 0;
   border-color: #e5e5e5; 
+  width: 100vw;
 }
 .wrapper-contact{
   background-image: url("../images/background-contact1.svg");

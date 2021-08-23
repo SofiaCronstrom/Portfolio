@@ -4,10 +4,12 @@ import About from "./about"
 import Projects from './projects';
 import Contact from './contact';
 import First from './first';
+import Layout from '../components/layout'
 const IndexPage = () => {
   
   
   return (
+    <Layout>
    <div className="wrapper-index">
      <Header/>
        <First/>
@@ -18,6 +20,7 @@ const IndexPage = () => {
       <div className="border-contact"></div> 
       <Contact/>
    </div>
+   </Layout>
   )
 
 }
