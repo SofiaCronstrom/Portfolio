@@ -22,7 +22,7 @@ return (
         <div className="container-projects">
             
         
-           <button type="button" className="projOne" onClick={toggle} style={{backgroundColor: "#EBE9B7"}}>
+           <button type="button" className="projOne" onClick={toggle}>
                 <h1>DIZZY DREAM</h1>
                 <Modal
                 isShowing={isShowing}
@@ -31,7 +31,7 @@ return (
            
            
          
-            <button type="button" className="projOne" onClick={toggle2} style={{backgroundColor: "#8FC9B8"}}>
+            <button type="button" className="projOne" onClick={toggle2} >
                 <h1>RICOLA</h1>
                 <Modal2
            isShowing={isShowing2}
@@ -39,14 +39,14 @@ return (
             </button>
            
 
-            <button type="button" className="projOne" onClick={toggle3} style={{backgroundColor: "#FFFA8A"}}>
+            <button type="button" className="projOne" onClick={toggle3} >
                 <h1>HABIT TRACKER</h1>
                 <Modal3
            isShowing={isShowing3}
            hide={toggle3}/> 
             </button >
 
-            <button type="button" className="projOne" onClick={toggle4} style={{backgroundColor: "#AAA1C6"}}>
+            <button type="button" className="projOne" onClick={toggle4}>
                 <h1>CETRIOLO CLOCK</h1>
                 <Modal4
                 isShowing={isShowing4}

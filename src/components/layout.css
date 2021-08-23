@@ -24,6 +24,7 @@
  }
 /*MENU*/
 .burger{
+ 
   padding-left: 95vw;
   padding-top: 20px;
   cursor: pointer;
@@ -33,7 +34,7 @@
   display: flex;
   flex-direction: column;
     align-items: flex-end;
-    gap: 20px;
+    
     padding-right: 100px;
 }
 nav{
@@ -42,7 +43,7 @@ nav{
   height: 400px;
   display: none;
   justify-content: center;
-  box-shadow: -19px -20px 20px -6px #777;
+  
   
 }
 nav.open{
@@ -56,10 +57,10 @@ ul{
   }
 
 li:hover{
-  color: #f8f7d9;
+  color: #f1e6fc;
 }
 li:active{
-  color: #b8a2ce;
+  color: #f8f7d9;
 }
 li{
   opacity: 10;
@@ -146,7 +147,7 @@ padding-left: 7vw;
   margin: auto 0;
 }
 .text-head{
-  
+  padding-top: 65px;
   font-weight: 600;
 }
 .text-head h2{
@@ -177,7 +178,9 @@ padding-left: 7vw;
 .project-head{
   font-family: var(--header-font);
   color: #FFF403;
-  padding: 20px;
+  
+  padding-top: 30px;
+  padding-left: 110px;
   padding-bottom: 0;
   font-size: 3em;
 }
@@ -194,7 +197,8 @@ padding-left: 7vw;
 
 .projOne{
   box-shadow: 0px 5px 4px #656565;
-  color: #2b0257;
+  color: #FFF403;
+  background-color: #808080;
   font-family:var(--paraG-font);
   font-weight: 600;
   font-size: 1em;
@@ -203,9 +207,11 @@ padding-left: 7vw;
   justify-items: center;
   align-content: center;
   cursor: pointer;
+
 }
 .projOne:hover{
-  color: #7c09f0;
+  color: #808080;
+  background-color: #FFFA8A;
 }
 
 /*MODALS*/
@@ -383,11 +389,16 @@ button {
   }
   .text-container{
     display: grid;
-    grid-template-columns: repeat(1, 180px);
+    grid-template-columns: repeat(1, 300px);
     grid-auto-rows: minmax(300px, auto);
     width: 350px;
     height: 600px;
     font-size: 0.8em;
+  }
+  .text-head{
+    padding-top: 10px;
+    font-size: 1.2em;
+    padding-left: 25px;
   }
   
   /*PROJECT MOBILE*/
@@ -406,6 +417,11 @@ button {
   }
   .projOne{
     width: 300px;
+    padding-top: 0px;
+  }
+  .project-head{
+    padding-left: 30px;
+    padding-top: 30px;
   }
 
   /*CONTACT MOBILE*/
