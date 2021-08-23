@@ -322,7 +322,6 @@ button {
   height: 770px;
 }
 .text-contact{
-  margin-top: auto;
   margin: auto;
   background-color: #E5E5E5;
   width: 40vw;
@@ -332,30 +331,37 @@ button {
   align-items: center;
   justify-content: center;
   align-content: center;
-  gap: 10px;
+  justify-items: center;
+  gap: 15px;
 }
 .text-contact h1{
   font-family: var(--header-font);
   color: #17012e;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 .text h2{
   font-family: var(--paraG-font);
   font-weight: 600;
   color: #17012e;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 .gitText, .linkedText{
   font-family: var(--paraG-font);
   font-size: 1.1em;
+  color: #17012e;
+
 }
 
 .github{
-  width: 2vw;
+  width: 5vw;
+  height: 6vh;
+  
 }
 .linkedin{
-  width: 2vw;
+  width: 5vw;
+  height: 6vh;
+  
 }
 
 
@@ -432,10 +438,19 @@ button {
     background-repeat: no-repeat; 
     background-size: cover;
     height: 700px;
+    display: flex;
   }
   .text-contact{
-    width: 100vw;
+  margin: auto;
+  width: 100vw;
   height: 300px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  }
+  .github, .linkedin{
+    width: 6vw;
+    padding: 3px;
   }
 }
