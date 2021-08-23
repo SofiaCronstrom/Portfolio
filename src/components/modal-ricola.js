@@ -21,9 +21,9 @@ const ModalTwo = ({isShowing, hide}) => isShowing ? ReactDOM.createPortal(
           <img src={Img2} className="ricola-img" alt="screenshot of sub page from ricola project with a accordion modal window and a legend button, contact form, an animated line with dots"/>
           </div>
           <p className="proj-text">
-          A collaborative project between the frontend class and the user experience class. The client was Ricola and there case was an website to show the company sustainable footsteps in an easy and comprehensible way.<br/>
-          In this project we worked with SCRUM as our work method and the frame work we developed in was in react and we used Gatsby as the site generator.<br/>
-          We tackled the task by doing a map over the different footsteps wich made it easier for the user to navigate between the different footsteps. We also made it pssible for the user to send in there own suggestion on actions the company could take towards reaching the sustainble goals (this was a wish from the company).<br/>
+          A collaborative project between the frontend class and the user experience class of Hyper Island. The client was Ricola and there case was an website to show the company sustainability footsteps in an easy and comprehensible way.<br/>
+          In this project we worked with SCRUM as our work method and the frame work/language we coded in was React and we used Gatsby as the site generator.<br/>
+          We tackled the case by doing a map over the different sustainability footsteps wich made it easier for the user to navigate through the information. We also made it possible for the user to send in there own suggestion on actions the company could take towards reaching the sustainble goals (this was a wish from the company).<br/>
           </p>
         </div>
       </div>

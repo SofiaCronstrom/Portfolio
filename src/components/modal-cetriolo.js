@@ -27,12 +27,10 @@ const ModalFour = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
 
           <p className="proj-text">
           An induvidual project with a purpose to learn the basics of React. It is a
-          studdy app width a clock to use when working with the pomodoro technique.<br/> 
+          studdy app with a clock to use when working using the pomodoro technique.<br/> 
           After a part presentation I was
-          supposed to add some kind of API and did so by
-           adding a todo list to the studdy app.<br/> 
-          Because I was the client for this product the design is based on colors that
-           soothes me. The name is a play on the word pomodoro (tomato in italian) 
+          supposed to add some sort of API that resulted in a todo list.<br/> 
+          Because I was the client for this product the design is based on a layout and color theme that I find calming. The name is a play on the word pomodoro (tomato in italian) 
            because the app has e green theme I named it cetriolo (cucumber in italian).<br/> 
            I was also consious in my choices of colors structure and buttons to align with
             the accessibility guidelines of the web.<br/>
