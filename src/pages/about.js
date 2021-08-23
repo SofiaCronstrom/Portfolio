@@ -12,9 +12,9 @@ const About = () => {
          <div className="text-head">
            <h2>Hi!</h2>
               <p>
-                My name is Sofia and I am currently studying at Hyper Island to be a frontend developer. I have a background in the fine art and crafts and I am a textile artist. I also have long work experience with customer service from working at two culture institutions in Stockholm. 
-                <br/>
-                The interest for code began when I stumbled upon a free introduction course in JavaScript only two years ago and after that I was hooked. 
+              My name is Sofia and I am a 34 year old woman based in Stockholm, Sweden. After years of studdying and practicing art I branched on a new path in my life studdying frontend development at Hyper Island. 
+              <br/>
+              What drives me in my work is curiosity, learning new things, creativity and the importance of accessibility on the web.  
               </p>
 
           </div>

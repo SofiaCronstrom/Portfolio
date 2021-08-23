@@ -16,19 +16,14 @@ const ModalTwo = ({isShowing, hide}) => isShowing ? ReactDOM.createPortal(
         </div>
          <div className="modal-content">
           <h2 className="proj-head">Ricola, sustainable footprints</h2>
-
+          <div className="img1-flex">
           <img src={Img1} className="ricola-img" alt="screenshot of index page of ricola project with a background of a man on a field and four subpage buttons"/>
           <img src={Img2} className="ricola-img" alt="screenshot of sub page from ricola project with a accordion modal window and a legend button, contact form, an animated line with dots"/>
-
+          </div>
           <p className="proj-text">
-                Curabitur non erat tempor, finibus sem ut, <br/>
-                cursus tortor. Nullam tristique nisi quis maximus sagittis.<br/>
-                Sed a diam libero. Morbi in purus gravida sapien blandit<br/>
-                volutpat posuere id sem. Curabitur libero felis,<br/> 
-                interdum dapibus mauris quis, sagittis mollis magna.<br/> 
-                Donec egestas feugiat elit, egestas gravida justo hendrerit a.<br/>
-                Duis bibendum eros at eros consectetur, id volutpat<br/> 
-                diam dignissim. Etiam vel mauris est. Vivamus ut erat tincidunt.<br/>
+          A collaborative project between the frontend class and the user experience class. The client was Ricola and there case was an website to show the company sustainable footsteps in an easy and comprehensible way.<br/>
+          In this project we worked with SCRUM as our work method and the frame work we developed in was in react and we used Gatsby as the site generator.<br/>
+          We tackled the task by doing a map over the different footsteps wich made it easier for the user to navigate between the different footsteps. We also made it pssible for the user to send in there own suggestion on actions the company could take towards reaching the sustainble goals (this was a wish from the company).<br/>
           </p>
         </div>
       </div>

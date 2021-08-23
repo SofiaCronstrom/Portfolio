@@ -1,11 +1,11 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Header from "../components/header"
-import About from "../components/about"
-import Projects from '../components/projects';
-import Contact from '../components/contact';
-import First from '../components/first';
-
+import Header from "./header"
+import About from "./about"
+import Projects from './projects';
+import Contact from './contact';
+import First from './first';
+import Icon from '../images/icon.png'
 const IndexPage = () => {
   
   

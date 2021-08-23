@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import ImgOne from "../images/modal/habit-1.svg"
-
+import ImgTwo from "../images/modal/habit-2.svg"
 
 const ModalThree = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
 
@@ -18,19 +18,14 @@ const ModalThree = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
         </div>
          <div className="modal-content">
           <h2 className="proj-head">Habit</h2>
-
+          <div className="img-flex">
           <img src={ImgOne} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
-
+          <img src={ImgTwo} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
+          </div>
           <p className="proj-text">
-                Curabitur non erat tempor, finibus sem ut, <br/>
-                cursus tortor. Nullam tristique nisi quis maximus sagittis.<br/>
-                Sed a diam libero. Morbi in purus gravida sapien blandit<br/>
-                volutpat posuere id sem. Curabitur libero felis,<br/> 
-                interdum dapibus mauris quis, sagittis mollis magna.<br/> 
-                Donec egestas feugiat elit, egestas gravida justo hendrerit a.<br/>
-                Duis bibendum eros at eros consectetur, id volutpat<br/> 
-                diam dignissim. Etiam vel mauris est. Vivamus ut erat tincidunt.<br/>
-
+          A habit tracker coded in html css and vanilla JavaScript. The purpose of this project where to learn and use local storage.<br/> 
+          My team developed an interactive, mobile first, habit tracker where the user could add a habit and for each time the user made progress the plant would grow.<br/> This is the first team project we did on my frontend developer education. We where all involved in the whole process from design, wireframing and mobcoding.<br/> 
+           <br/>
                 <a className="proj-link" href="https://elinordin.github.io/habit-tracker/">View project</a>
           </p>
         </div>

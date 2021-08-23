@@ -1,9 +1,9 @@
 import * as React from "react"
-import Modal from "./modal-dizzy"
-import Modal2 from "./modal-ricola"
-import Modal3 from "./modal-habit"
-import Modal4 from "./modal-cetriolo"
-import useModal from "./button-1"
+import Modal from "../components/modal-dizzy"
+import Modal2 from "../components/modal-ricola"
+import Modal3 from "../components/modal-habit"
+import Modal4 from "../components/modal-cetriolo"
+import useModal from "../components/button-1"
 
 
 

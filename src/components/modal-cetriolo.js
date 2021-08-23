@@ -20,18 +20,22 @@ const ModalFour = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
          <div className="modal-content">
           <h2 className="proj-head">Studdy clock</h2>
 
+         <div className="img-flex">
           <img src={ImgOne} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
           <img src={ImgTwo} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
+        </div>
 
           <p className="proj-text">
-                Curabitur non erat tempor, finibus sem ut, <br/>
-                cursus tortor. Nullam tristique nisi quis maximus sagittis.<br/>
-                Sed a diam libero. Morbi in purus gravida sapien blandit<br/>
-                volutpat posuere id sem. Curabitur libero felis,<br/> 
-                interdum dapibus mauris quis, sagittis mollis magna.<br/> 
-                Donec egestas feugiat elit, egestas gravida justo hendrerit a.<br/>
-                Duis bibendum eros at eros consectetur, id volutpat<br/> 
-                diam dignissim. Etiam vel mauris est. Vivamus ut erat tincidunt.<br/>
+          An induvidual project with a purpose to learn the basics of React. It is a
+          studdy app width a clock to use when working with the pomodoro technique.<br/> 
+          After a part presentation I was
+          supposed to add some kind of API and did so by
+           adding a todo list to the studdy app.<br/> 
+          Because I was the client for this product the design is based on colors that
+           soothes me. The name is a play on the word pomodoro (tomato in italian) 
+           because the app has e green theme I named it cetriolo (cucumber in italian).<br/> 
+           I was also consious in my choices of colors structure and buttons to align with
+            the accessibility guidelines of the web.<br/>
 
                 <a className="proj-link" href="https://cetriolo-app.netlify.app/">View project</a>
           </p>

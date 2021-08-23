@@ -1,7 +1,7 @@
 import * as React from "react";
 import Burgare from "../images/burger.svg";
 import { useState } from "react";
-
+import {Link} from "gatsby"
 const MenuNav = () => {
    
     const [open, setOpen] = useState(false);
@@ -12,8 +12,8 @@ const MenuNav = () => {
         <nav className={open ? "open" : null}>
         
             <ul>
-            <li>Home</li>
-            <li>About</li>
+            <Link to="/first/"><li>Home</li></Link>
+            <Link to="/about/"><li>About</li></Link>
             <li>Project</li>
             <li>Contact</li>
             </ul>
