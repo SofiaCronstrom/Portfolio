@@ -16,7 +16,6 @@
 
 .header{
   position: fixed;
-  overflow: scroll;
   top: 0;
   }
 
@@ -119,6 +118,7 @@ padding-left: 7vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .border-about{
   border-style: solid;
@@ -139,7 +139,7 @@ padding-left: 7vw;
   justify-items: center;
   align-content: center;
   box-shadow: 0 10px 6px -6px #777;
-  
+  border-radius: 3px;
 }
 
 .profile{
