@@ -128,7 +128,7 @@ padding-left: 7vw;
 
 .text-container{
  
-  background-color: #FFFA8A;
+  background-color: #fcf7a4;
   font-family: var(--paraG-font);
   color: #2b0257;
   width: 700px;
@@ -138,7 +138,7 @@ padding-left: 7vw;
   justify-content: center;
   justify-items: center;
   align-content: center;
-  box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0px 5px 4px #656565;
   border-radius: 3px;
 }
 
@@ -189,7 +189,7 @@ padding-left: 7vw;
 .container-projects{
   display: grid;
   grid-template-columns: repeat(2, 400px);
-  gap: 20px;
+  gap: 30px;
   grid-auto-rows: minmax(150px, auto);
   margin: 10%;
   justify-content: center;
