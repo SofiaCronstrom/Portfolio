@@ -7,13 +7,14 @@ import {Link} from "react-scroll";
 const MenuNav = () => {
    
     const [open, setOpen] = useState(false);
-
+    
+    
     return ( 
         <div className="menu-wrapper">
         
         <img src={Burgare} alt="menu burger" className="burger" onClick={() =>{setOpen(!open);}}/>
         
-        <nav className={open ? "open" : null}>
+        <nav className={open ? "open" : null} onClick={()=>{setOpen(false);}}>
         
             <ul>
             <Link activeClass="active" to="container-index" spy={true} smooth={true}><li>Home</li></Link>

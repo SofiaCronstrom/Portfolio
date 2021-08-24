@@ -44,7 +44,7 @@ nav{
   height: 400px;
   display: none;
   justify-content: center;
-  
+  cursor:pointer;
   
 }
 nav.open{
