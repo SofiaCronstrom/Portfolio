@@ -15,9 +15,9 @@ const IndexPage = () => {
        <First/>
        <div className="border-about"></div> 
       <About/>
-      <div className="border-proj"></div> 
+      <div className="border-about"></div> 
       <Projects/>
-      <div className="border-contact"></div> 
+      <div className="border-about"></div> 
       <Contact/>
    </div>
    </Layout>

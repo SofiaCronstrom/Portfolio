@@ -122,13 +122,13 @@ padding-left: 7vw;
 }
 .border-about{
   border-style: solid;
-  border-width: 0 10px 10px 0;
-  border-color: #60d4b3;
+  border-width: 0 2px 2px 0;
+  border-color: #FFF403;
 }
 
 .text-container{
  
-  background-color: #fcf7a4;
+  background-color: #808080;
   font-family: var(--paraG-font);
   color: #2b0257;
   width: 700px;
@@ -138,10 +138,14 @@ padding-left: 7vw;
   justify-content: center;
   justify-items: center;
   align-content: center;
-  box-shadow: 0px 5px 4px #656565;
-  border-radius: 3px;
+  box-shadow: 20px 15px 20px #656565;
+  
 }
-
+.profile-container{
+  width: 270px;
+  height: 270px;
+  background-color: #FFF403;
+}
 .profile{
   
   width: 250px;
@@ -149,6 +153,7 @@ padding-left: 7vw;
   margin: auto 0;
 }
 .text-head{
+  background-color: #E5E5E5;
   padding-top: 65px;
   font-weight: 600;
 }
@@ -193,27 +198,31 @@ padding-left: 7vw;
   grid-auto-rows: minmax(150px, auto);
   margin: 10%;
   justify-content: center;
-  justify-items: center;
+  justify-items: start;
   align-content: space-between;
 }
-
+.proj{
+  background-color:#FFF403;
+  width: 200px;
+}
 .projOne{
-  box-shadow: 0px 5px 4px #656565;
+  box-shadow: 20px 15px 20px #656565;
   color: #FFF403;
   background-color: #808080;
   font-family:var(--paraG-font);
   font-weight: 600;
   font-size: 1em;
-  width: 400px;
+  width: 300px;
+  height: 100px;
   display: grid;
   justify-items: center;
   align-content: center;
   cursor: pointer;
-
+  border-radius: 0;
 }
 .projOne:hover{
-  color: #808080;
-  background-color: #FFFA8A;
+  color: #f1e6fc;
+  background-color: #808080;
 }
 
 /*MODALS*/
@@ -246,6 +255,7 @@ padding-left: 7vw;
   border-radius: 3px;
   max-width: 500px;
   padding: 2rem;
+  color: #2b0257;
 }
 .modal-header {
   display: flex;
@@ -324,18 +334,25 @@ button {
   width: 100vw;
   height: 770px;
 }
-.text-contact{
-  margin: auto;
+.contact-container{
   background-color: #E5E5E5;
-  width: 40vw;
-  height: 770px;
-  box-shadow: 0px 5px 4px #656565;
+  width: 30vw;
+  height: 400px;
   display: grid;
   align-items: center;
   justify-content: center;
   align-content: center;
   justify-items: center;
   gap: 15px;
+}
+.text-contact{
+  margin: auto;
+  background-color: #FFF403;
+  width: 40vw;
+  height: 600px;
+  box-shadow: 20px 15px 20px #656565;
+  
+ 
 }
 .text-contact h1{
   font-family: var(--header-font);
@@ -442,6 +459,9 @@ button {
     background-size: cover;
     height: 700px;
     display: flex;
+  }
+  .contact-container{
+    width: 60vw;
   }
   .text-contact{
   margin: auto;

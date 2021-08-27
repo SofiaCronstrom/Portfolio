@@ -21,31 +21,34 @@ return (
 <h1 className="project-head">Projects</h1>
         <div className="container-projects">
             
-        
+        <div className="proj">
            <button type="button" className="projOne" onClick={toggle}>
                 <h1>DIZZY DREAM</h1>
                 <Modal
                 isShowing={isShowing}
                 hide={toggle}/> 
            </button> 
+           </div>
            
-           
-         
+           <div className="proj">
             <button type="button" className="projOne" onClick={toggle2} >
                 <h1>RICOLA</h1>
                 <Modal2
            isShowing={isShowing2}
            hide={toggle2}/> 
             </button>
-           
+            </div>
 
+            <div className="proj">
             <button type="button" className="projOne" onClick={toggle3} >
                 <h1>HABIT TRACKER</h1>
                 <Modal3
            isShowing={isShowing3}
            hide={toggle3}/> 
             </button >
+            </div>
 
+            <div className="proj">
             <button type="button" className="projOne" onClick={toggle4}>
                 <h1>CETRIOLO CLOCK</h1>
                 <Modal4
@@ -53,7 +56,7 @@ return (
                 hide={toggle4}
                 />
             </button>
-           
+            </div>
         </div>
 </div>
 
