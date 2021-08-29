@@ -18,7 +18,7 @@ const [isShowing4, toggle4] = useModal();
 
 return (
 <div className="wrapper-projects">
-<h1 className="project-head">Projects</h1>
+<h1 className="project-head">PROJECTS</h1>
         <div className="container-projects">
             
         <div className="proj">
