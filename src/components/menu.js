@@ -1,6 +1,4 @@
 import * as React from "react";
-import Burgare from "../images/burger.svg";
-import { useState } from "react";
 import {Link} from "react-scroll";
 import { slide as Menu } from 'react-burger-menu'
 import './burger.css'
@@ -13,7 +11,6 @@ const MenuNav = () => {
           : menuWrap.setAttribute("aria-hidden", true);
       };
    
-    const [open, setOpen] = useState(false);
     
     
     return ( 

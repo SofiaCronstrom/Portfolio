@@ -349,6 +349,7 @@ button {
   align-content: center;
   justify-items: center;
   gap: 15px;
+  box-shadow: 20px 15px 20px #656565;
 }
 .text-contact{
   margin: auto;
