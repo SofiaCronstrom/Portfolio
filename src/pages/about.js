@@ -12,7 +12,7 @@ const About = () => {
          </div>
          <div className="text-head">
            <h2>Hi!</h2>
-              <p>
+              <p className="me-text">
               My name is Sofia and I am a 34 year old woman based in Stockholm, Sweden.<br/> After studying and practicing art for some years I embarked on a new path in life as an aspiring coder, studying frontend development at Hyper Island. 
               <br/>
               What drives me in my work is curiosity, learning new things, creativity, design and exploration.  
