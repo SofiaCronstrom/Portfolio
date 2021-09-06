@@ -3,6 +3,8 @@ import Modal from "../components/modal-dizzy"
 import Modal2 from "../components/modal-ricola"
 import Modal3 from "../components/modal-habit"
 import Modal4 from "../components/modal-cetriolo"
+import Modal5 from '../components/modal-face'
+import Modal6 from '../components/modal-slow'
 import useModal from "../components/button-1"
 
 
@@ -14,7 +16,8 @@ const [isShowing, toggle] = useModal();
 const [isShowing2, toggle2] = useModal();
 const [isShowing3, toggle3] = useModal();
 const [isShowing4, toggle4] = useModal();
-
+const [isShowing5, toggle5] = useModal();
+const [isShowing6, toggle6] = useModal();
 
 return (
 <div className="wrapper-projects">
@@ -54,6 +57,24 @@ return (
                 <Modal4
                 isShowing={isShowing4}
                 hide={toggle4}
+                />
+            </button>
+           </div>
+            <div className="proj">
+            <button type="button" className="projOne" onClick={toggle5}>
+                <h1>MOOD CHECKER</h1>
+                <Modal5
+                isShowing={isShowing5}
+                hide={toggle5}
+                />
+            </button>
+            </div>
+            <div className="proj">
+            <button type="button" className="projOne" onClick={toggle6}>
+                <h1>SLOW STUDIO</h1>
+                <Modal6
+                isShowing={isShowing6}
+                hide={toggle6}
                 />
             </button>
             </div>
