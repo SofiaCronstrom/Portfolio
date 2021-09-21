@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import ImgOne from "../images/modal/slowStudio.png"
-import ImgTwo from "../images/modal/slowStudio2.png"
+
 
 
 const ModalFour = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
@@ -21,8 +21,9 @@ const ModalFour = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
           <h2 className="proj-head">Slow studio</h2>
 
          <div className="img-flex">
-          <img src={ImgOne} className="slow-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
-          <img src={ImgTwo} className="slow-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
+       
+          <img src={ImgOne} className="slow-img" alt="screenshot of slow studio SPA"/>
+          
         </div>
 
           <p className="proj-text">

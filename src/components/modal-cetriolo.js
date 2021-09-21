@@ -21,8 +21,8 @@ const ModalFour = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
           <h2 className="proj-head">Studdy clock</h2>
 
          <div className="img-flex">
-          <img src={ImgOne} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
-          <img src={ImgTwo} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
+          <img src={ImgOne} className="aframe-img" alt="cetriolo clock and buttons to choose study+rest time, start stop and reset button on a green background and a pattern of cucumbers"/>
+          <img src={ImgTwo} className="aframe-img" alt="todo list form input field to add todos. List of todos delete and change button on a green background and a pattern of cucumbers"/>
         </div>
 
           <p className="proj-text">

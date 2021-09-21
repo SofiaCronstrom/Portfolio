@@ -19,8 +19,8 @@ const ModalThree = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
          <div className="modal-content">
           <h2 className="proj-head">Habit</h2>
           <div className="img-flex">
-          <img src={ImgOne} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
-          <img src={ImgTwo} className="aframe-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
+          <img src={ImgOne} className="aframe-img" alt="first page of habit tracker displaying cards with different habits in use biege background white cards and a green animated plant on each card"/>
+          <img src={ImgTwo} className="aframe-img" alt="a form to add a new habit, name and duration of that habit on a olive green background"/>
           </div>
           <p className="proj-text">
           A habit tracker coded in html css and vanilla JavaScript. The main purpose of this project where to learn and use local storage.<br/> 

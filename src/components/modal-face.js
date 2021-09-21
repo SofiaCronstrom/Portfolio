@@ -21,8 +21,8 @@ const ModalFive = ({ isShowing, hide}) => isShowing ? ReactDOM.createPortal(
           <h2 className="proj-head">Face API</h2>
 
          <div className="img-flex">
-          <img src={ImgOne} className="face-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
-          <img src={ImgTwo} className="face-img" alt="screenshot of the first level of the VR game 'dizzy dreams' pink cylinder on pink background"/>
+          <img src={ImgOne} style={{width: 200}} className="face-img" alt="screenshot of me in a videocall with the face expression recognition on"/>
+          <img src={ImgTwo} className="face-img" alt="A evalutaion log of ten different moods, counted from the face expression recognition"/>
         </div>
 
           <p className="proj-text">

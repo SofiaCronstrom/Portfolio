@@ -198,17 +198,18 @@ padding-left: 7vw;
 }
 .container-projects{
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 50%);
   gap: 30px;
-  grid-auto-rows: minmax(150px, auto);
+  grid-auto-rows: minmax(33.3%, auto);
   margin: 10%;
   justify-content: center;
   justify-items: start;
-  align-content: space-between;
+  align-content: center;
+  height: 50%;
 }
 .proj{
   background-color:#FFF403;
-  width: 200px;
+  width: 50%;
 }
 .projOne{
   box-shadow: 20px 15px 20px #656565;
@@ -258,7 +259,7 @@ padding-left: 7vw;
   position: relative;
   margin: 1.75rem auto;
   border-radius: 3px;
-  max-width: 500px;
+  max-width: 700px;
   padding: 2rem;
   color: #2b0257;
 }
@@ -293,18 +294,19 @@ button {
 .img-flex{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
-  width: 140px;
+  width: 500px;
 }
 .img1-flex{
   display: flex;
-  width: 140px;
+  width: 75%;
   flex-direction: column;
   align-items: center;
 }
 .proj-text{
   font-family: var(--paraG-font);
-  width: 340px;
+  width: 75%;
 }
 .proj-link{
   font-family: var(--paraG-font); 
@@ -318,16 +320,17 @@ button {
 
 /*MODAL IMAGES*/
 .aframe-img{
-  width: 300px;
+  width: 75%;
   padding: 10px;
 }
 .face-img{
-  width: 230px;
-  height: 225px;
+  width: 50%;
 }
 .slow-img{
-  width: 300px;
-  height: 225px;
+ width: 50%;
+}
+.slow-img2{
+  width: 50%;
 }
 /*CONTACT PAGE*/
 .border-contact{
@@ -461,29 +464,32 @@ button {
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat; background-size: cover;
-    
+    height: 670px;
   }
   .container-projects{
-    display: grid;
-    grid-template-columns: repeat(1, 200px);
-    gap: 20px;
-    grid-template-rows: repeat(6, 80px);
-    justify-content: center;
-    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
   }
   .proj{
-    width: 200px;
-    height: 60px;
+    display: flex;
+    width: 75%;
+    height: 50%;
   }
   .projOne{
-    width: 200px;
+    width: 90%;
     height: 80px;
     padding-top: 0px;
+    font-size: 0.5em;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
   }
   .project-head{
-    padding-left: 25vw;
-    padding-top: 30px;
-    font-size: 2.3em;
+    display: none;
   }
 
   /*CONTACT MOBILE*/

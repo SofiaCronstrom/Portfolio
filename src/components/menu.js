@@ -5,10 +5,11 @@ import './burger.css'
 const MenuNav = () => {
 
     const toggleMenu = ({ isOpen }) => {
+        
         const menuWrap = document.querySelector(".bm-menu-wrap");
-        isOpen
-          ? menuWrap.setAttribute("aria-hidden", false)
-          : menuWrap.setAttribute("aria-hidden", true);
+
+        isOpen ? menuWrap.setAttribute("aria-hidden", false)
+        : menuWrap.setAttribute("aria-hidden", true);
       };
    
     
